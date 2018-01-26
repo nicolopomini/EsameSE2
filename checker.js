@@ -35,6 +35,7 @@ function check(url, invocationParameters,  expectedResultData, expectedResultSta
         checkResult.resultDataAsExpected = compareResults(expectedResultData, res);
         console.log("Risultato");
         console.log(checkResult);
+        return checkResult;
     })
     ;
 
